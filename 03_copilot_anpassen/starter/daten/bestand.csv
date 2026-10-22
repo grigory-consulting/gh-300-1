@@ -1,0 +1,9 @@
+nummer;bezeichnung;lagerort;bestand;mindestbestand;sollbestand
+BR-1042;Scheibenbremsbeläge organisch;A1;12;10;30
+BR-1043;Scheibenbremsbeläge gesintert;A1;4;8;24
+SC-2801;Schlauch 28 Zoll Sclaverand;B2;7;15;40
+SC-2601;Schlauch 26 Zoll Autoventil;B2;18;10;30
+KT-1100;Kette 11-fach;C1;3;5;12
+KT-0900;Kette 9-fach;C1;9;5;12
+ZG-0010;Schaltzug Edelstahl 2100 mm;C3;50;20;60
+ZG-0020;Bremszug Edelstahl 1700 mm;C3;0;10;40

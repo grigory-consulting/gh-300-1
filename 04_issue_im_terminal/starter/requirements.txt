@@ -1,0 +1,3 @@
+# Laufzeit: nur Standardbibliothek (Python 3.12).
+# Für die Tests:
+pytest>=8

@@ -1,0 +1,1 @@
+"""Lieferterminberechnung für den Warenkorb."""
