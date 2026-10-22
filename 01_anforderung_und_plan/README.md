@@ -100,10 +100,10 @@ Ab hier zeigt `git diff`, was sich seit diesem Stand geändert hat.
 
 Merken Sie sich die Uhrzeit, wenn Sie den Auftrag an den Plan-Agenten abschicken.
 
-1. Öffnen Sie den Chat und wählen Sie den Agenten **Plan**.
-2. Formulieren Sie den Auftrag selbst. Geben Sie `anforderung.md`, `betrag.py` und `test_betrag.py` als Kontext mit: Im Chat `#` tippen und die Datei wählen, VS Code fügt die Referenz ein. Die ältere Schreibweise `#file:anforderung.md` funktioniert weiter.
+1. Öffnen Sie einen neuen Chat, stellen Sie unter dem Eingabefeld **Local** ein und wählen Sie den Agenten **Plan**.
+2. Formulieren Sie den Auftrag selbst. Geben Sie `anforderung.md`, `betrag.py` und `test_betrag.py` als Kontext mit: im Explorer Rechtsklick auf die Datei, dann **Add File to Chat**. Eine Datei, die im Editor offen ist, schlägt der Chat als gestrichelten Baustein vor; ein Klick auf **+** hängt sie fest an.
 3. Lesen Sie den Plan Satz für Satz und halten Sie jede Aussage gegen Ihre Anforderung: Steht das so in `anforderung.md`, oder hat Copilot es angenommen?
-4. Beantworten Sie Rückfragen des Plan-Agenten in `anforderung.md`, nicht nur im Chat. Den Chat sieht kein Kollege, die Datei liegt im Repository.
+4. Rückfragen stellt der Plan-Agent oft als kleines Formular mit Antwortvorschlägen. Halten Sie Ihre Antworten zusätzlich in `anforderung.md` fest, nicht nur im Chat. Den Chat sieht kein Kollege, die Datei liegt im Repository.
 5. Hat sich die Anforderung geändert, lassen Sie den Plan neu erstellen und prüfen ihn noch einmal. Mehr als diese zweite Runde ist in der Zeit nicht vorgesehen.
 
 Passt der Plan zu Ihrer Anforderung, schicken Sie dem Trainer im Teams-Chat zwei Angaben: die Minuten seit dem Abschicken des Auftrags und die letzte Zeile von `git diff --stat`.
@@ -114,7 +114,7 @@ Erst jetzt: `nach_dem_versuch.md`, Abschnitt 3.
 
 Wählen Sie den Agenten **Agent** und schreiben Sie den Umsetzungsauftrag selbst. Begrenzen Sie ihn so, dass Sie den Diff danach in fünf Minuten prüfen können.
 
-Falls der Plan eine Schaltfläche zum Umsetzen anbietet, nutzen Sie sie in dieser Übung nicht. Sie schickt womöglich einen fertigen Auftrag ab, in dem Ihre Begrenzung fehlt.
+Unter dem fertigen Plan stehen Schaltflächen wie **Start Implementation** und **Start with Autopilot**. Nutzen Sie sie in dieser Übung nicht. Sie schickt womöglich einen fertigen Auftrag ab, in dem Ihre Begrenzung fehlt.
 
 Wenn der Agent Befehle im Terminal ausführen will, lesen Sie den Befehl, bevor Sie ihn freigeben.
 

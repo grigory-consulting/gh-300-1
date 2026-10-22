@@ -16,7 +16,7 @@ Ein Versandhändler zeigt im Warenkorb an, wann ein Paket beim Kunden ankommt. D
 | `tests/` | pytest-Tests |
 | `docs/fachregeln.md` | Regeln der Logistik |
 
-Dateien hängen Sie im Chat an, indem Sie `#` tippen und die Datei auswählen. VS Code fügt die Referenz in der aktuellen Form ein. Die ältere Schreibweise `#file:pfad` funktioniert weiter.
+Dateien hängen Sie im Chat so an: im Explorer Rechtsklick auf die Datei, dann **Add File to Chat**. Eine Datei, die im Editor offen ist, schlägt der Chat zusätzlich als gestrichelten Baustein über dem Eingabefeld vor; ein Klick auf **+** hängt sie fest an. Stellen Sie bei jedem neuen Chat unter dem Eingabefeld **Local** ein.
 
 ## Vorbereitung
 

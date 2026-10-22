@@ -220,7 +220,7 @@ Erst jetzt: `nach_dem_versuch.md`, Abschnitt 3.
 Das Team möchte einen Prüfer, der Dateien gegen die Konventionen liest und Befunde meldet, aber nie selbst etwas ändert.
 
 1. Schreiben Sie einen Custom Agent `.github/agents/<name>.agent.md`. Frontmatter: `description` (Pflicht auf GitHub), `name` und `tools` mit einer Liste, die nur lesende Werkzeuge enthält. Welche Werkzeuge es gibt, zeigt Ihnen der Chat mit `/tools` oder in der Werkzeugauswahl. Ein Agent mit nur lesenden Werkzeugen kann Dateien lesen und durchsuchen, aber keine Befehle wie `git` ausführen. Schreiben Sie den Auftrag in der Agentendatei so, dass er mit genannten oder angehängten Dateien arbeitet.
-2. Wählen Sie den Agenten im Chat aus. Hängen Sie `lager/export.py` und die Testdatei aus Teil A an (im Chat `#` tippen und die Datei wählen) und lassen Sie beide gegen die Konventionen prüfen.
+2. Wählen Sie den Agenten im Chat aus. Hängen Sie `lager/export.py` und die Testdatei aus Teil A an (im Explorer Rechtsklick auf die Datei, dann **Add File to Chat**) und lassen Sie beide gegen die Konventionen prüfen.
 3. Bitten Sie ihn danach ausdrücklich, den ersten Befund direkt in der Datei zu beheben. Prüfen Sie mit `git status`, ob sich eine Datei geändert hat.
 4. Wenn Zeit bleibt: Rufen Sie denselben Agenten im CLI auf (`copilot --agent <name> -p "..."`), mit den Dateinamen im Auftrag. Verhält er sich gleich?
 

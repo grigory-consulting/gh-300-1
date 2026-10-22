@@ -4,7 +4,7 @@ Lesen Sie immer nur den Abschnitt, auf den das README gerade verweist. Die Absch
 
 Die Beispiel-Prompts sind eine mögliche Fassung. Vergleichen Sie: Was steht in Ihrem Prompt, das hier fehlt, und was steht hier, das in Ihrem fehlt?
 
-`#anforderung.md` steht für die Referenz, die VS Code einfügt, wenn Sie `#` tippen und die Datei wählen. Die ältere Schreibweise `#file:anforderung.md` funktioniert weiter.
+`#anforderung.md` steht für eine angehängte Datei (im Explorer Rechtsklick auf die Datei, dann **Add File to Chat**).
 
 ## Abschnitt 3: Beispiel-Prompt für den Plan
 
