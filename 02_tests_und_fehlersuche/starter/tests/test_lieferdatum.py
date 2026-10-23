@@ -35,6 +35,11 @@ def test_bestellung_freitag_vormittag_express():
     assert zustelltermin(datetime(2026, 10, 16, 11, 30), "express") == date(2026, 10, 17)
 
 
+def test_zustellung_ueberspringt_feiertag_am_samstag():
+    bestellt = datetime(2026, 12, 24, 9, 0)
+    assert zustelltermin(bestellt) == date(2026, 12, 29)
+
+
 def test_bestellung_am_abend_vor_himmelfahrt():
     assert versanddatum(datetime(2026, 5, 13, 19, 0)) == date(2026, 5, 15)
 

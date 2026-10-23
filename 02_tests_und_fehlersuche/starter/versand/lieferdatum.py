@@ -13,6 +13,11 @@ def ist_versandtag(tag: date) -> bool:
     return tag.weekday() < 5 and not ist_feiertag(tag)
 
 
+def ist_zustelltag(tag: date) -> bool:
+    """Montag bis Samstag, sofern kein Feiertag."""
+    return tag.weekday() < 6 and not ist_feiertag(tag)
+
+
 def naechster_versandtag(tag: date) -> date:
     """Erster Versandtag nach `tag`."""
     tag += EIN_TAG
@@ -37,6 +42,6 @@ def zustelltermin(bestellt: datetime, versandart: str = "standard") -> date:
     offen = ZUSTELLTAGE[versandart]
     while offen > 0:
         tag += EIN_TAG
-        if ist_versandtag(tag):
+        if ist_zustelltag(tag):
             offen -= 1
     return tag
