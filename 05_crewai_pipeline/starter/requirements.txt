@@ -1,0 +1,5 @@
+# Python 3.10 bis 3.13 (crewai 1.15.28 unterstützt 3.14 noch nicht); im Codespace ist es 3.12.
+crewai==1.15.28
+pypdf==6.21.2
+python-dotenv>=1.0
+pytest>=8

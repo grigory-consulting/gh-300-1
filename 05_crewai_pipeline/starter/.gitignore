@@ -1,0 +1,4 @@
+.env
+ergebnis/
+__pycache__/
+.pytest_cache/

@@ -1,6 +1,6 @@
 # Übungen: GitHub Copilot
 
-Vier Übungen zur Schulung GitHub Copilot (GH-300). Jede Übung ist ein kleines Python-Projekt mit Tests. Copilot schreibt den Code, Sie schreiben Anforderung und Prompt, prüfen Plan und Diff und entscheiden, was übernommen wird.
+Vier Übungen und eine Zusatzübung zur Schulung GitHub Copilot (GH-300). Jede Übung ist ein kleines Python-Projekt mit Tests. Copilot schreibt den Code, Sie schreiben Anforderung und Prompt, prüfen Plan und Diff und entscheiden, was übernommen wird.
 
 | Nr. | Übung | Dauer |
 |---|---|---|
@@ -8,6 +8,7 @@ Vier Übungen zur Schulung GitHub Copilot (GH-300). Jede Übung ist ein kleines 
 | 2 | [Tests und Fehlersuche](02_tests_und_fehlersuche/) | etwa 40 Minuten |
 | 3 | [Copilot anpassen](03_copilot_anpassen/) | etwa 35 Minuten |
 | 4 | [Ein Issue im Terminal bearbeiten](04_issue_im_terminal/) | etwa 25 Minuten |
+| 5 | [Zusatz: Agenten-Pipeline mit CrewAI](05_crewai_pipeline/) | etwa 30 Minuten |
 
 ## Folien
 
