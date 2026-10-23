@@ -9,6 +9,10 @@ Vier Übungen zur Schulung GitHub Copilot (GH-300). Jede Übung ist ein kleines 
 | 3 | [Copilot anpassen](03_copilot_anpassen/) | etwa 35 Minuten |
 | 4 | [Ein Issue im Terminal bearbeiten](04_issue_im_terminal/) | etwa 25 Minuten |
 
+## Folien
+
+Die Folien zum Kurs liegen als PDF unter [folien/github-copilot-gh300.pdf](folien/github-copilot-gh300.pdf). GitHub zeigt sie direkt im Browser an; über **Download** speichern Sie sie lokal.
+
 ## Arbeitsumgebung: GitHub Codespace
 
 Sie brauchen nur einen Browser und Ihren GitHub-Account mit Copilot-Plan. Python, pytest, die Erweiterung GitHub Copilot Chat und das Copilot CLI richtet der Codespace selbst ein.
